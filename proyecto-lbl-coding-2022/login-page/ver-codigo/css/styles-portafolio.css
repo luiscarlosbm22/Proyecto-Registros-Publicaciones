@@ -1,0 +1,43 @@
+.link-registro{
+    border: solid 1px;
+  } 
+.container-portafolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-gap: 18px;
+    justify-content: center;
+  }
+  .item {
+    border-radius: 5px;
+    padding: 10px;
+    background: #ffffff;
+  }
+
+  .item img {
+    max-width: 100%
+  }
+  .level-1 {
+    grid-row-end: span 1;
+  }
+
+  .level-2 {
+    grid-row-end: span 2;
+  }
+  .level-3 {
+    grid-row-end: span 1;
+  }
+  .card-ports-galery{
+      font-family: sans-serif;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 13px;
+      color: rgb(20, 20, 20);
+      box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 20%);
+  }
+  .card-ports-galery:hover{
+    box-shadow: 0 0.125rem 0.25rem rgba(0 0 0 / 60%);
+}
+a:hover {
+  
+  text-decoration: none !important; 
+}

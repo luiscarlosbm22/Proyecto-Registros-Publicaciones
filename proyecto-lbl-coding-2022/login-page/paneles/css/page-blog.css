@@ -1,0 +1,29 @@
+.ctn-lbl-comentar {
+    text-align: -webkit-center;
+}
+.card {
+
+    text-align-last: left;
+}
+.card-text:last-child {
+    
+    text-align: -webkit-left;
+}
+@media screen and (max-width: 767px) {
+
+    ol {
+        margin-bottom: 2445px !important;
+      }
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+}
+a:hover {
+    color: #0056b3;
+     text-decoration: none !important; 
+}
+button.btn.btn-secondary.btn-sm:hover {
+    color: #0a58ca !important;
+  }
